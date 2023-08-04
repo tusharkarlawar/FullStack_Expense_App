@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Expense App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Expense App</h1>
+
+  <form id="bookingForm">
+    <input type="number" id="expense" placeholder="Choose Expense Amount" required>
+    <input type="text" id="description" placeholder="Description" required>
+    <select name="category" id="category">
+        <option value="Rent">Rent</option>
+        <option value="Movies">Movies</option>
+        <option value="Food">Food</option>
+        <option value="Shopping">Shopping</option>
+        <option value="Other">Other</option>
+    </select>
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- <div id="usersContainer"></div> -->
+  
+    <ul id="ullist"></ul>
+  
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+</html>
